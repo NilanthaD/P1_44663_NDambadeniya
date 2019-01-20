@@ -79,6 +79,7 @@ namespace P1_44663_NDambadeniya
                 challage = rnd.Next(1, 11);
                 challangeValue[totalGames - 1] = challage;
                 Console.WriteLine($"\nRound {totalGames} :");
+                isGuessedCorrect=false;
                 // Console.WriteLine($"Challage : {challage}");
                 numberOfGuesses = 0;
                 while (numberOfGuesses < 3 || !(isGuessedCorrect))
@@ -108,6 +109,7 @@ namespace P1_44663_NDambadeniya
                         if (numberOfGuesses == 3 && !(isGuessedCorrect))
                         {
                             Console.WriteLine("Your 3 gussers are over\n");
+                            isGuessedCorrect = false;
                             guessStat[totalGames - 1] = false;
 
                             break;
