@@ -18,4 +18,4 @@ Then player has to gess a computer generated number between 1 and 10. Player wil
 Once the player earn enough money to win the price or he plaied 5 rounds, the game will be over.
 
 # Screen capture of consoe app afer interact
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/NilanthaD/P1_44663_NDambadeniya/blob/master/image/ScreenCapture.JPG)
