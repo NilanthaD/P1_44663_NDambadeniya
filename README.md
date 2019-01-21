@@ -1,5 +1,5 @@
 # P1_44663_NDambadeniya
-# P1: C# Basics\
+# P1: C# Basics
 This app is develop to practice the use of basic programming concepts of C#.net console app development. \
 Following basic features are included in this app.  \
   Declare and use a bool, int, double, char, string, and decimal type. \
