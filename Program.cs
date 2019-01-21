@@ -67,7 +67,7 @@ namespace P1_44663_NDambadeniya
             var averageWiningRate = 0.0;
             var earnMoney = 0.0M;
             var rnd = new Random();
-            Console.WriteLine("In this game you get 3 gesses to gess a number between 1 and 10");
+            Console.WriteLine("In this game you get 3 guesses to guess a number between 1 and 10");
             Console.WriteLine("Each right guess, you will earn $5.00 and you have to earn required money to buy the item in 5 rounds");
             while (amount != earnMoney)
             {
@@ -108,7 +108,7 @@ namespace P1_44663_NDambadeniya
                         }
                         if (numberOfGuesses == 3 && !(isGuessedCorrect))
                         {
-                            Console.WriteLine("Your 3 gussers are over\n");
+                            Console.WriteLine("Your 3 guesses are over\n");
                             isGuessedCorrect = false;
                             guessStat[totalGames - 1] = false;
 
